@@ -25,6 +25,8 @@ struct LoadingView: View {
             VStack {
                 
                 Image("LogoPig")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
                     .padding(.bottom, 250)
             }
             
